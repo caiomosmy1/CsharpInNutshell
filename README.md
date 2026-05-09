@@ -1,5 +1,5 @@
 # CsharpInNutshell 
-Anotações, exercicios, práticas do livro da O'relly sobre o C#, adicionamento de conteúdo
+Anotações, exercicios, práticas do livro da O'relly sobre o C#, adicionamento de conteúdo.
 
 ## C# Language basics
 ## Creating Types in C#
