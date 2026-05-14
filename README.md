@@ -2,6 +2,19 @@
 Anotações, exercicios, práticas do livro da O'relly sobre o C#, adicionamento de conteúdo.
 
 ## C# Language basics
+### A First C# Program
+### Syntax Basics
+### Type Basics
+### Numeric Types
+### Boolean Type and Operators
+### Strings and Characters
+### Arrays
+### Variables and Parameters
+### Expressions and Operators
+### Null Operators
+### Statements
+### Namespaces
+
 ## Creating Types in C#
 ## Advanced C#
 ## Framework Fundamentals
