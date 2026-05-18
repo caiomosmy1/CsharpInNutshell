@@ -14,6 +14,18 @@ Anotações, exercicios, práticas do livro da O'relly sobre o C#, adicionamento
 ### Null Operators
 ### Statements
 ### Namespaces
+    Nesting namespaces
+    Using directive
+    Global using directive
+    Using static
+    Rules - Name scoping
+    Rules - Name hiding
+    Rules - Repeated namespaces
+    Rules - Nested using directive
+    Aliasing types and namespaces
+    Aliasing any type
+    Namespace alias qualifier
+
 
 ## Creating Types in C#
 ## Advanced C#
