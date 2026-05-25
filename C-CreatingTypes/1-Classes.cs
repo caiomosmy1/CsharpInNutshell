@@ -110,8 +110,37 @@ public class Panda
   }
 }
 
-Constructors - Overloading
-Constructors - Nonpublic
+// Constructors - Overloading
+new Wine (78).Dump();
+new Wine (78, 2001).Dump();
+
+public class Wine
+{
+  public decimal Price;
+  public int Year;
+  public Wine (decimal price) => Price = price;
+  public Wine (decimal price, int year) : this (price) => Year = year;
+  )
+
+// Constructors - Nonpublic
+// A common reason to have a nonpublic constructor is to control instance creation via a
+// static method call:
+
+Class1 c1 = Class1.Create();  // OK
+Class1 c2 = new Class1();    // Error: Will not compile
+
+public class Class1
+{
+  Class1() { }    // Private constructor
+  
+  public static Class1 Create()
+  {
+    // Perform custom logic here to create & configure an instance of Class1
+    /* ... */
+    return new Class1();
+  }
+}
+  
 Deconstructors
 Object Initializers
 Object Initializer Alternative - Optional Parameters
