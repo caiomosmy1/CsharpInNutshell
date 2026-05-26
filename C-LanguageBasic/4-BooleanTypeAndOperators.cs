@@ -54,3 +54,11 @@ bool
 {
     return !windy & (rainy | sunny);
 }
+
+Max (2, 3).Dump();
+Max (3, 2).Dump();
+
+int Max (int a, int b)
+{
+    return (a > b) ? a : b;
+}
