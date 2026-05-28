@@ -1,6 +1,30 @@
 /*# FUNDAMENTO
 ### Abstração
 #### Processo a qual se isolam características de um objeto, considerando os que tenham em comum certos grupos de objetos.
+Classe abstrata (não pode ser instanciada)*/
+
+public abstract class Veiculo
+{
+    public string Marca { get; set; }
+
+    // Método abstrato (as classes filhas são OBRIGADAS a implementar)
+    public abstract void LigarMotor();
+
+    // Método comum (padrão para todos)
+    public void DesligarMotor()
+    {
+        Console.WriteLine("Motor desligado.");
+    }
+}
+
+// Classe concreta (herda de Veiculo e implementa o método abstrato)
+public class Carro : Veiculo
+{
+    public override void LigarMotor()
+    {
+        Console.WriteLine("O motor do carro foi ligado com a chave.");
+    }
+}
 
 
 
