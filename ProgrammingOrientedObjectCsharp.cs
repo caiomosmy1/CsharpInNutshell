@@ -56,5 +56,27 @@ public class Cachorro : Animal
 
 // ESCAPSULAMENTO
 /*No caso, a complexidade que desejamos esconder é a de implemetação de alguma necessidade. Com o encapsulamento, podemos 
-esconder a forma como algo foi feito, dadno a quem precisa apenas o resultado gerado, apena o resultado é relevante
-*/
+esconder a forma como algo foi feito, dadno a quem precisa apenas o resultado gerado, apena o resultado é */
+
+public class ContaBancaria
+{
+    // O saldo é privado, escondido do mundo exterior
+    private decimal saldo;
+
+    // Propriedade pública para interagir com o saldo privado
+    public decimal Saldo
+    {
+        get { return saldo; }
+        set 
+        {
+            // Regra de negócio: não permite saldo negativo
+            if (value >= 0)
+            {
+                saldo = value;
+            }
+        }
+    }
+}
+
+
+
