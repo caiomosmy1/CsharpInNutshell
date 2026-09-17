@@ -62,6 +62,7 @@ Anotações, exercicios, práticas do livro da O'relly sobre o C#, adicionamento
 ## APIs
 ## Banco de dados
 ## Caching
+é uma tecnica importante para melhorar o desempenho, escalabilidade e responsividade de software.
 ## Servidores
 ## Testes
 ## Message Brokers
