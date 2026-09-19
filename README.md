@@ -38,7 +38,18 @@ Anotações, exercicios, práticas do livro da O'relly sobre o C#, adicionamento
 ## Disposal and Garbage Collection
 ## Diagnostics
 ## Concurrency and Asynchrony
-## Streams and IO
+## Streams IO and Em C#, 
+as classes de Stream representam 
+um fluxo sequencial de dados (
+sejam bytes ou caracteres). 
+Elas servem como uma camada de 
+abstração entre o seu código e 
+os dispositivos físicos, como 
+arquivos no disco, memória RAM, 
+ou conexões de rede (sockets).
+
+
+
 ## Networking
 ## Assemblies
 ## Reflection and Metadata
