@@ -65,7 +65,17 @@ ou conexões de rede (sockets).
 ## Orietação a objeto
 ## Algoritmos 
 ## estrutura de dados
-## Copiladores
+## Compilador 
+Um compilador é um programa de 
+computador que converte código 
+escrito em uma linguagem de 
+programação de alto nível
+ (legível por humanos) em uma 
+linguagem de baixo nível 
+(como código de máquina ou 
+binário) que o processador do 
+computador consegue executar
+
 ## Refatoração
 ## Ciencia da computação aplicada
 ## Shell e Bash
