@@ -94,3 +94,4 @@ computador consegue executar
 ## AZURE
 ## GCP
 ## Docean Ocean
+## Linux - Fedora 
